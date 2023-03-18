@@ -22,53 +22,53 @@
       </div>
       <div class="repo_card">
         <div class="repo_items">
-          <span>Created:</span>
-          <span
+          <h4>Created:</h4>
+          <p
             >{{ convertDate(repo.created_at) }}
             {{ getTime(repo.created_at) }}
-          </span>
+          </p>
         </div>
         <div class="repo_items">
-          <span>Updated:</span>
-          <span>
+          <h4>Updated:</h4>
+          <p>
             {{ convertDate(repo.updated_at) }}
             {{ getTime(repo.updated_at) }}
-          </span>
+          </p>
         </div>
         <div class="repo_items">
-          <span>Push:</span>
-          <span>
+          <h4>Push:</h4>
+          <p>
             {{ convertDate(repo.pushed_at) }}
             {{ getTime(repo.pushed_at) }}
-          </span>
+          </p>
         </div>
       </div>
       <div class="repo_card">
         <div class="repo_items">
-          <span>Repo size:</span>
-          <span>{{ repo.size }}kb</span>
+          <h4>Repo size:</h4>
+          <p>{{ repo.size }}kb</p>
         </div>
         <div class="repo_items">
-          <span>Stars:</span>
-          <span> {{ repo.stargazers_count }}</span>
+          <h4>Stars:</h4>
+          <p> {{ repo.stargazers_count }}</p>
         </div>
         <div class="repo_items">
-          <span>Watchers:</span>
-          <span> {{ repo.watchers_count }}</span>
+          <h4>Watchers:</h4>
+          <p> {{ repo.watchers_count }}</p>
         </div>
       </div>
       <div class="repo_card">
         <div class="repo_items">
-          <span>Forks</span>
-          <span>{{ repo.forks_count }}</span>
+          <h4>Forks</h4>
+          <p>{{ repo.forks_count }}</p>
         </div>
         <div class="repo_items">
-          <span>Issues:</span>
-          <span>{{ repo.open_issues_count }}</span>
+          <h4>Issues:</h4>
+          <p>{{ repo.open_issues_count }}</p>
         </div>
         <div class="repo_items">
-          <span>Subscribers:</span>
-          <span>{{ repo.subscribers_count }}</span>
+          <h4>Subscribers:</h4>
+          <p>{{ repo.subscribers_count }}</p>
         </div>
       </div>
     </div>
@@ -131,14 +131,6 @@ main {
   margin: 0 auto;
 }
 
-.header_shadow {
-  height: 165px;
-  width: 100%;
-  background-color: #d9d9d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .back_btn {
   display: flex;

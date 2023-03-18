@@ -109,14 +109,14 @@ main {
 
 ul {
   list-style: none;
-  background-color: #fafaf0;
+  /* background-color: #fafaf0; */
+  background-color: #c5cec2;
+  color: #002147;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   display: flex;
   gap: 20px;
   flex-direction: column;
-  /* align-items: flex-end; */
-  /* justify-content: flex-end; */
   width: 100%;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
