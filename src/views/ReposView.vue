@@ -1,6 +1,6 @@
 <template>
   <main>
-    <!-- ui card for git repo card list grid view -->
+    <!-- ui card for  repo card list in grid view -->
     <div class="repo_container_grid">
       <ul v-for="repo in paginateRepo" :key="repo.id">
         <li>{{ repo.name }}</li>
@@ -67,16 +67,8 @@ export default {
 </script>
 
 <style scoped>
-/* main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-} */
+
 main {
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   padding: 40px 24px;
@@ -102,14 +94,12 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 24px;
   width: 100%;
-  /* max-width: 900px; */
   padding: 10px 0;
   width: 100%;
 }
 
 ul {
   list-style: none;
-  /* background-color: #fafaf0; */
   background-color: #c5cec2;
   color: #002147;
   border-radius: 8px;

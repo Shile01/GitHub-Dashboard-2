@@ -4,11 +4,11 @@
         <h1>404</h1>
         <div className="top-navigation">
            <h2>
-            Ohh, Shit
+            Ohh, Shit 😞 (:
           </h2>
           <p>Page doesn't exist</p>
           <RouterLink to="/" class="">
-          <p className="back"><i class="fa-solid fa-circle-left"></i> Go Back Home</p>
+          <p className="back">Go Back Home</p>
         </RouterLink>
       </div>
     </div>
@@ -54,7 +54,7 @@ export default {
 }
 
 .back:hover,.back:focus {
-  background-color: #fff;
+    background-color: #f1f1e6;
   color: #002147;
   border: 1px solid #002147;
   /* transform: scale(1.05); */

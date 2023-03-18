@@ -81,7 +81,7 @@ nav a.router-link-exact-active {
 
 @media screen and (min-width: 800px) {
   header {
-    padding: 0 40px;
+    padding: 0 48px;
   }
 }
 

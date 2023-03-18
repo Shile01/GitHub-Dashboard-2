@@ -150,7 +150,6 @@ img {
   line-height: 20px;
   font-weight: 500;
   font-style: italic;
-  /* border: 1px solid yellow; */
 }
 
 .group-btn {
@@ -325,10 +324,4 @@ img {
   }
 }
 
-/* @media (max-width: 376px) {
-  .group-btn {
-    flex-direction: column;
-    gap: 10px;
-  }
-} */
 </style>
